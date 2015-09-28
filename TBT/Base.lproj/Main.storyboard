@@ -199,8 +199,25 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1L-nr-rnj">
+                                <rect key="frame" x="48" y="259" width="42" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Log In"/>
+                                <connections>
+                                    <action selector="loginBtn:" destination="ZNU-qO-QOT" eventType="touchUpInside" id="BVY-lM-B0U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KiO-QO-QSe">
+                                <rect key="frame" x="41" y="320" width="55" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <action selector="signUpBtn:" destination="ZNU-qO-QOT" eventType="touchUpInside" id="D6A-0A-1WN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="emailTxtField" destination="Yxd-1r-GJN" id="JKZ-93-tHl"/>
@@ -212,10 +229,10 @@
             </objects>
             <point key="canvasLocation" x="328" y="725"/>
         </scene>
-        <!--View Controller-->
+        <!--Main Screen View Controller-->
         <scene sceneID="riV-iZ-ZMR">
             <objects>
-                <viewController id="5yi-Rr-xGT" sceneMemberID="viewController">
+                <viewController id="5yi-Rr-xGT" customClass="mainScreenViewController" customModule="TBT" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZzU-7z-Sch"/>
                         <viewControllerLayoutGuide type="bottom" id="bbX-KR-IXt"/>

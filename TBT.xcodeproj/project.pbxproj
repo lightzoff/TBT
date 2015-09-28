@@ -33,6 +33,7 @@
 		6FB521981BB5087100438716 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB521961BB5087100438716 /* libz.1.2.5.tbd */; };
 		6FB521991BB5087100438716 /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB521971BB5087100438716 /* libz.1.tbd */; };
 		6FB5219B1BB5088200438716 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB5219A1BB5088200438716 /* libsqlite3.tbd */; };
+		6FB7AF1A1BB8C45A007D841F /* mainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7AF191BB8C45A007D841F /* mainScreenViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		6FEDD40F1BB5152100EFFD80 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDD40E1BB5152100EFFD80 /* LogInViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -86,6 +87,7 @@
 		6FB521961BB5087100438716 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
 		6FB521971BB5087100438716 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
 		6FB5219A1BB5088200438716 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6FB7AF191BB8C45A007D841F /* mainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainScreenViewController.swift; sourceTree = "<group>"; };
 		6FEDD40E1BB5152100EFFD80 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				6F75372D1BB4C82C005AB2F7 /* AppDelegate.swift */,
+				6FB7AF191BB8C45A007D841F /* mainScreenViewController.swift */,
 				6F75372F1BB4C82C005AB2F7 /* FirstViewController.swift */,
 				6F7537311BB4C82C005AB2F7 /* SecondViewController.swift */,
 				6FEDD40E1BB5152100EFFD80 /* LogInViewController.swift */,
@@ -346,6 +349,7 @@
 			files = (
 				6FEDD40F1BB5152100EFFD80 /* LogInViewController.swift in Sources */,
 				6F7537321BB4C82C005AB2F7 /* SecondViewController.swift in Sources */,
+				6FB7AF1A1BB8C45A007D841F /* mainScreenViewController.swift in Sources */,
 				6F75372E1BB4C82C005AB2F7 /* AppDelegate.swift in Sources */,
 				6F7537301BB4C82C005AB2F7 /* FirstViewController.swift in Sources */,
 			);
