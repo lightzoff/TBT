@@ -140,15 +140,15 @@
             </objects>
             <point key="canvasLocation" x="1662" y="-288"/>
         </scene>
-        <!--View Controller-->
+        <!--Log In View Controller-->
         <scene sceneID="zO8-sP-jJr">
             <objects>
-                <viewController id="ZNU-qO-QOT" sceneMemberID="viewController">
+                <viewController id="ZNU-qO-QOT" customClass="LogInViewController" customModule="TBT" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3rz-HQ-x7c"/>
                         <viewControllerLayoutGuide type="bottom" id="QPG-zg-iWZ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Bi1-9g-QrB">
+                    <view key="view" alpha="0.20000000000000001" contentMode="scaleToFill" id="Bi1-9g-QrB">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -201,8 +201,12 @@
                             </textField>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTxtField" destination="Yxd-1r-GJN" id="JKZ-93-tHl"/>
+                        <outlet property="passwordTxtField" destination="BHj-UB-1gn" id="3Eg-lS-yL4"/>
+                        <outlet property="usernameTxtField" destination="0YR-FR-BAv" id="Okn-Gd-9xB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VG1-dz-ReI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
